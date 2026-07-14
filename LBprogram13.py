@@ -1,0 +1,11 @@
+def Odd(Num):
+    for i in range(1,Num+1):
+        if i % 2 != 0:
+            print(i)
+
+def main():
+    Num = int(input("Enter a number"))
+    Odd(Num)
+
+if __name__ == "__main__":
+    main()
